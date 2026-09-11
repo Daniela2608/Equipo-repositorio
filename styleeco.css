@@ -121,7 +121,212 @@ nav a {
 
 nav a:hover {
     color: #b7e36b;
-=======
+}
+
+main {
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+
+h2 {
+    text-align: center;
+
+    font-size: 35px;
+
+    color: #26733d;
+
+    margin-bottom: 35px;
+}
+
+.fila {
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 50px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    border: 1px solid #c5ddc5;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.fila img {
+    width: 50%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+
+.texto {
+    width: 50%;
+}
+
+
+.texto h3 {
+    font-size: 30px;
+
+    color: #26733d;
+}
+
+
+.texto p {
+    color: #4b5c4b;
+
+    line-height: 1.8;
+
+    font-size: 17px;
+}
+
+
+.inversa {
+    flex-direction: row;
+}
+
+.tarjetas {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+.tarjeta {
+    flex: 1;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border-top: 5px solid #4d9f52;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+
+.tarjeta h3 {
+    color: #26733d;
+
+    font-size: 22px;
+}
+
+
+.tarjeta p {
+    color: #4b5c4b;
+
+    line-height: 1.6;
+}
+
+.datos-seccion {
+    background-color: #dcefdc;
+
+    padding: 50px;
+
+    border-radius: 18px;
+}
+
+
+.datos {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+.dato {
+    flex: 1;
+
+    text-align: center;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+}
+
+
+.dato strong {
+    display: block;
+
+    font-size: 35px;
+
+    color: #26733d;
+
+    margin-bottom: 10px;
+}
+
+
+.dato p {
+    color: #4b5c4b;
+
+    line-height: 1.6;
+}
+
+.boton-seccion {
+    text-align: center;
+}
+
+
+.boton {
+    display: inline-block;
+
+    padding: 14px 30px;
+
+    margin-top: 15px;
+
+    background-color: #4d9f52;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.boton:hover {
+    background-color: #26733d;
+
+    transform: scale(1.05);
+}
 
 footer {
     text-align: center;
@@ -131,5 +336,4 @@ footer {
     background-color: #0f351e;
 
     color: #d9ead9;
-> footer
 }
